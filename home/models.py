@@ -4,5 +4,9 @@ from django.db import models
 
 class Testapps(models.Model):
     "Generated Model"
-    oktested = models.TextField()
-    newtest = models.URLField()
+    oktested = models.TextField(
+        blank=True,
+    )
+    newtestss = models.URLField(
+        blank=True,
+    )
